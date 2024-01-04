@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62711AAD2B46680700A2F05B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62711AAC2B46680700A2F05B /* AppDelegate.swift */; };
+		62711AAF2B46680700A2F05B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62711AAE2B46680700A2F05B /* SceneDelegate.swift */; };
+		62711AB12B46680700A2F05B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62711AB02B46680700A2F05B /* ViewController.swift */; };
+		62711AB42B46680700A2F05B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62711AB22B46680700A2F05B /* Main.storyboard */; };
+		62711AB62B46680800A2F05B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62711AB52B46680800A2F05B /* Assets.xcassets */; };
+		62711AB92B46680800A2F05B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62711AB72B46680800A2F05B /* LaunchScreen.storyboard */; };
+		62711AC42B46680800A2F05B /* Yiddish_for_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62711AC32B46680800A2F05B /* Yiddish_for_iOSTests.swift */; };
+		62711ACE2B46680800A2F05B /* Yiddish_for_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62711ACD2B46680800A2F05B /* Yiddish_for_iOSUITests.swift */; };
+		62711AD02B46680800A2F05B /* Yiddish_for_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62711ACF2B46680800A2F05B /* Yiddish_for_iOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62711AC02B46680800A2F05B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62711AA12B46680700A2F05B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62711AA82B46680700A2F05B;
+			remoteInfo = "Yiddish for iOS";
+		};
+		62711ACA2B46680800A2F05B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62711AA12B46680700A2F05B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62711AA82B46680700A2F05B;
+			remoteInfo = "Yiddish for iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62711AA92B46680700A2F05B /* Yiddish for iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yiddish for iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62711AAC2B46680700A2F05B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62711AAE2B46680700A2F05B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		62711AB02B46680700A2F05B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62711AB32B46680700A2F05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62711AB52B46680800A2F05B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62711AB82B46680800A2F05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62711ABA2B46680800A2F05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62711ABF2B46680800A2F05B /* Yiddish for iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yiddish for iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62711AC32B46680800A2F05B /* Yiddish_for_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yiddish_for_iOSTests.swift; sourceTree = "<group>"; };
+		62711AC92B46680800A2F05B /* Yiddish for iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yiddish for iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62711ACD2B46680800A2F05B /* Yiddish_for_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yiddish_for_iOSUITests.swift; sourceTree = "<group>"; };
+		62711ACF2B46680800A2F05B /* Yiddish_for_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yiddish_for_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62711AA62B46680700A2F05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62711ABC2B46680800A2F05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62711AC62B46680800A2F05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62711AA02B46680700A2F05B = {
+			isa = PBXGroup;
+			children = (
+				62711AAB2B46680700A2F05B /* Yiddish for iOS */,
+				62711AC22B46680800A2F05B /* Yiddish for iOSTests */,
+				62711ACC2B46680800A2F05B /* Yiddish for iOSUITests */,
+				62711AAA2B46680700A2F05B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62711AAA2B46680700A2F05B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62711AA92B46680700A2F05B /* Yiddish for iOS.app */,
+				62711ABF2B46680800A2F05B /* Yiddish for iOSTests.xctest */,
+				62711AC92B46680800A2F05B /* Yiddish for iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62711AAB2B46680700A2F05B /* Yiddish for iOS */ = {
+			isa = PBXGroup;
+			children = (
+				62711AAC2B46680700A2F05B /* AppDelegate.swift */,
+				62711AAE2B46680700A2F05B /* SceneDelegate.swift */,
+				62711AB02B46680700A2F05B /* ViewController.swift */,
+				62711AB22B46680700A2F05B /* Main.storyboard */,
+				62711AB52B46680800A2F05B /* Assets.xcassets */,
+				62711AB72B46680800A2F05B /* LaunchScreen.storyboard */,
+				62711ABA2B46680800A2F05B /* Info.plist */,
+			);
+			path = "Yiddish for iOS";
+			sourceTree = "<group>";
+		};
+		62711AC22B46680800A2F05B /* Yiddish for iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				62711AC32B46680800A2F05B /* Yiddish_for_iOSTests.swift */,
+			);
+			path = "Yiddish for iOSTests";
+			sourceTree = "<group>";
+		};
+		62711ACC2B46680800A2F05B /* Yiddish for iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62711ACD2B46680800A2F05B /* Yiddish_for_iOSUITests.swift */,
+				62711ACF2B46680800A2F05B /* Yiddish_for_iOSUITestsLaunchTests.swift */,
+			);
+			path = "Yiddish for iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62711AA82B46680700A2F05B /* Yiddish for iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62711AD32B46680800A2F05B /* Build configuration list for PBXNativeTarget "Yiddish for iOS" */;
+			buildPhases = (
+				62711AA52B46680700A2F05B /* Sources */,
+				62711AA62B46680700A2F05B /* Frameworks */,
+				62711AA72B46680700A2F05B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yiddish for iOS";
+			productName = "Yiddish for iOS";
+			productReference = 62711AA92B46680700A2F05B /* Yiddish for iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62711ABE2B46680800A2F05B /* Yiddish for iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62711AD62B46680800A2F05B /* Build configuration list for PBXNativeTarget "Yiddish for iOSTests" */;
+			buildPhases = (
+				62711ABB2B46680800A2F05B /* Sources */,
+				62711ABC2B46680800A2F05B /* Frameworks */,
+				62711ABD2B46680800A2F05B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62711AC12B46680800A2F05B /* PBXTargetDependency */,
+			);
+			name = "Yiddish for iOSTests";
+			productName = "Yiddish for iOSTests";
+			productReference = 62711ABF2B46680800A2F05B /* Yiddish for iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62711AC82B46680800A2F05B /* Yiddish for iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62711AD92B46680800A2F05B /* Build configuration list for PBXNativeTarget "Yiddish for iOSUITests" */;
+			buildPhases = (
+				62711AC52B46680800A2F05B /* Sources */,
+				62711AC62B46680800A2F05B /* Frameworks */,
+				62711AC72B46680800A2F05B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62711ACB2B46680800A2F05B /* PBXTargetDependency */,
+			);
+			name = "Yiddish for iOSUITests";
+			productName = "Yiddish for iOSUITests";
+			productReference = 62711AC92B46680800A2F05B /* Yiddish for iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62711AA12B46680700A2F05B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					62711AA82B46680700A2F05B = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					62711ABE2B46680800A2F05B = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 62711AA82B46680700A2F05B;
+					};
+					62711AC82B46680800A2F05B = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 62711AA82B46680700A2F05B;
+					};
+				};
+			};
+			buildConfigurationList = 62711AA42B46680700A2F05B /* Build configuration list for PBXProject "Yiddish for iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62711AA02B46680700A2F05B;
+			productRefGroup = 62711AAA2B46680700A2F05B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62711AA82B46680700A2F05B /* Yiddish for iOS */,
+				62711ABE2B46680800A2F05B /* Yiddish for iOSTests */,
+				62711AC82B46680800A2F05B /* Yiddish for iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62711AA72B46680700A2F05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62711AB92B46680800A2F05B /* LaunchScreen.storyboard in Resources */,
+				62711AB62B46680800A2F05B /* Assets.xcassets in Resources */,
+				62711AB42B46680700A2F05B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62711ABD2B46680800A2F05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62711AC72B46680800A2F05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62711AA52B46680700A2F05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62711AB12B46680700A2F05B /* ViewController.swift in Sources */,
+				62711AAD2B46680700A2F05B /* AppDelegate.swift in Sources */,
+				62711AAF2B46680700A2F05B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62711ABB2B46680800A2F05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62711AC42B46680800A2F05B /* Yiddish_for_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62711AC52B46680800A2F05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62711ACE2B46680800A2F05B /* Yiddish_for_iOSUITests.swift in Sources */,
+				62711AD02B46680800A2F05B /* Yiddish_for_iOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62711AC12B46680800A2F05B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62711AA82B46680700A2F05B /* Yiddish for iOS */;
+			targetProxy = 62711AC02B46680800A2F05B /* PBXContainerItemProxy */;
+		};
+		62711ACB2B46680800A2F05B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62711AA82B46680700A2F05B /* Yiddish for iOS */;
+			targetProxy = 62711ACA2B46680800A2F05B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62711AB22B46680700A2F05B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62711AB32B46680700A2F05B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62711AB72B46680800A2F05B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62711AB82B46680800A2F05B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62711AD12B46680800A2F05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62711AD22B46680800A2F05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62711AD42B46680800A2F05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M84YF4LV65;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yiddish for iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jjwyetzner.Yiddish-for-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62711AD52B46680800A2F05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M84YF4LV65;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yiddish for iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jjwyetzner.Yiddish-for-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62711AD72B46680800A2F05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M84YF4LV65;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jjwyetzner.Yiddish-for-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yiddish for iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yiddish for iOS";
+			};
+			name = Debug;
+		};
+		62711AD82B46680800A2F05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M84YF4LV65;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jjwyetzner.Yiddish-for-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yiddish for iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yiddish for iOS";
+			};
+			name = Release;
+		};
+		62711ADA2B46680800A2F05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M84YF4LV65;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jjwyetzner.Yiddish-for-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yiddish for iOS";
+			};
+			name = Debug;
+		};
+		62711ADB2B46680800A2F05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M84YF4LV65;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jjwyetzner.Yiddish-for-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yiddish for iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62711AA42B46680700A2F05B /* Build configuration list for PBXProject "Yiddish for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62711AD12B46680800A2F05B /* Debug */,
+				62711AD22B46680800A2F05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62711AD32B46680800A2F05B /* Build configuration list for PBXNativeTarget "Yiddish for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62711AD42B46680800A2F05B /* Debug */,
+				62711AD52B46680800A2F05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62711AD62B46680800A2F05B /* Build configuration list for PBXNativeTarget "Yiddish for iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62711AD72B46680800A2F05B /* Debug */,
+				62711AD82B46680800A2F05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62711AD92B46680800A2F05B /* Build configuration list for PBXNativeTarget "Yiddish for iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62711ADA2B46680800A2F05B /* Debug */,
+				62711ADB2B46680800A2F05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62711AA12B46680700A2F05B /* Project object */;
+}
